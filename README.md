@@ -32,4 +32,4 @@ On Version 3.0 of the Handbrake PCB the hall sensor is conntector to GND, VCC an
 Pin 3 and pin 1 were also connected on my board, but there are no leads going anywhere, so I assume they are just for stabilization.
 
 
-**Note: I know that there's at least a version 4.0 of this PCB, but I don't know the exact differences.
+**Note: I know that there's at least a version 4.0 of this PCB, but I don't know the exact differences.**
