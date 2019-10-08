@@ -31,5 +31,8 @@ Within the handbrake there's a simple PCB with an Arduino Pro Micro and a Hall S
 On Version 3.0 of the Handbrake PCB the hall sensor is conntector to GND, VCC and A2. The PCB some anotherlead to pin 10, but it's not connected. 
 Pin 3 and pin 1 were also connected on my board, but there are no leads going anywhere, so I assume they are just for stabilization.
 
+[Top View of the v3 PCB](14bit%20v3%20images/pcb_v3_top_anot.jpg?raw=true "Top View of the v3 PCB")
+
+[Bottom View of the v3 PCB](https://raw.githubusercontent.com/Dakor91/Chinese-SimRacing-14Bit-Handbrake-Custom-Firmware-Arduino-Sketch/master/14bit%20v3%20images/pcb_v3_bottom_anot.jpg "Bottom View of the v3 PCB")
 
 **Note: I know that there's at least a version 4.0 of this PCB, but I don't know the exact differences.**
