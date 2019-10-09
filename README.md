@@ -19,20 +19,23 @@ If your IDE is using default directories, you can execute the deploy.at to Insta
 
 ### 2. Download and Deploy to Handbrake Arduino
 
-Download this repository, open the "ChineseHandbrakeCustomFirmware.ino" with your Arduino IDE.
+Download this repository or only the sktech and open the "ChineseHandbrakeCustomFirmware.ino" with your Arduino IDE:
 
-Conntect your Handbrake and select the corresponding COM port of the device, which will be titled "Arduino Leonardo".
-Select "Arduino Leonardo" as the Board Type.
-Compile and Deploy the Sketch.
+* Sketch Only: https://raw.githubusercontent.com/Dakor91/Chinese-SimRacing-14Bit-Handbrake-Custom-Firmware-Arduino-Sketch/master/ChineseHandbrakeCustomFirmware.ino
+* Repository: https://github.com/Dakor91/Chinese-SimRacing-14Bit-Handbrake-Custom-Firmware-Arduino-Sketch/archive/master.zip
+
+Then...
+1. Conntect your Handbrake and select the corresponding COM port of the device, which will be titled "Arduino Leonardo".
+1. Select "Arduino Leonardo" as the Board Type. 
+1. Compile and Deploy the Sketch. 
 
 Done! 
 
 
 # About
 
-Within the handbrake there's a simple PCB with an Arduino Pro Micro and a Hall Sensor.
-
-On the pcb titled *version 3.0* the hall sensor is conntector to GND, VCC and A2. The PCB some has another lead to pin 10, but it's not connected to anything else, due to a missing resistor.
+Within the handbrake there's a simple PCB with an Arduino Pro Micro and a Hall Sensor. \
+On the pcb titled *version 3.0* the hall sensor is conntector to GND, VCC and A2. The PCB some has another lead to pin 10, but it's not connected to anything else, due to a missing resistor.  ß
 Pin 3 and pin 1 of the arduino were also soldered on my board, but there are no leads going anywhere. To be sure I measured both and found that they are not connected to anything that's measurable on the pcb. I assume they are just soldered for stabilization.
 
 <img src="14bit%20v3%20images/pcb_v3_top_anot.jpg?raw=true" width="350" alt="Top View of the v3 PCB"/>
