@@ -5,7 +5,9 @@ Alternative Firmaware for Chinese "14 Bit" Sim Racing Handbrake by Daniel Korgel
 
 The 12 and 14 Bit Version of the chineses SimRacing Handbrake use an Arduino Pro Micro and a hall sensor.
 
-This sketch is desigend as a replacement firmware to allow modifcations like connecting more buttons to the arduino and so using more of it's potential. 
+This sketch is desigend as a replacement firmware to allow modifcations like connecting more buttons to the arduino and so using more of it's potential.
+
+The sktech in this repository is a direct replacement and works just like the original software but also includes an example for 2 additional buttons.
 
 
 # How to use
@@ -15,11 +17,11 @@ This sketch is desigend as a replacement firmware to allow modifcations like con
 * Repository: https://github.com/MHeironimus/ArduinoJoystickLibrary
 * Director Download: https://github.com/MHeironimus/ArduinoJoystickLibrary/archive/master.zip
 
-If your IDE is using default directories, you can execute the deploy.at to Install the library, otherwise you need to copy the Joystick directory into your Arduino/libraries directory manually.
+If your IDE is using default directories, you can execute the deploy.bat to Install the library, otherwise you need to copy the Joystick directory into your Arduino/libraries directory manually.
 
 ### 2. Download and Deploy to Handbrake Arduino
 
-Download this repository or only the sktech and open the "ChineseHandbrakeCustomFirmware.ino" with your Arduino IDE:
+Download / Clone this repository or just the sktech and open the "ChineseHandbrakeCustomFirmware.ino" with your Arduino IDE:
 
 * Sketch Only: https://raw.githubusercontent.com/Dakor91/Chinese-SimRacing-14Bit-Handbrake-Custom-Firmware-Arduino-Sketch/master/ChineseHandbrakeCustomFirmware.ino
 * Repository: https://github.com/Dakor91/Chinese-SimRacing-14Bit-Handbrake-Custom-Firmware-Arduino-Sketch/archive/master.zip
@@ -32,10 +34,10 @@ Then...
 Done! 
 
 
-# About
+# Technical Details
 
 Within the handbrake there's a simple PCB with an Arduino Pro Micro and a Hall Sensor. \
-On the pcb titled *version 3.0* the hall sensor is conntector to GND, VCC and A2. The PCB some has another lead to pin 10, but it's not connected to anything else, due to a missing resistor.  ß
+On the pcb titled *version 3.0* the hall sensor is conntector to GND, VCC and A2. The PCB has another lead to pin 10, but it's not connected to anything else, due to a missing resistor.
 Pin 3 and pin 1 of the arduino were also soldered on my board, but there are no leads going anywhere. To be sure I measured both and found that they are not connected to anything that's measurable on the pcb. I assume they are just soldered for stabilization.
 
 <img src="14bit%20v3%20images/pcb_v3_top_anot.jpg?raw=true" width="350" alt="Top View of the v3 PCB"/>
