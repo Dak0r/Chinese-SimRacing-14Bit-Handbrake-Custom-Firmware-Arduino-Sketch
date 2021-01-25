@@ -15,7 +15,7 @@ The sktech in this repository is a direct replacement and works just like the or
 ### 1. Install the Arduino Joystick Library from by Matthew Heironimus:
 
 * Repository: https://github.com/MHeironimus/ArduinoJoystickLibrary
-* Director Download: https://github.com/MHeironimus/ArduinoJoystickLibrary/archive/master.zip
+* Direct Download: https://github.com/MHeironimus/ArduinoJoystickLibrary/archive/master.zip
 
 If your IDE is using default directories, you can execute the deploy.bat to Install the library, otherwise you need to copy the Joystick directory into your Arduino/libraries directory manually.
 
